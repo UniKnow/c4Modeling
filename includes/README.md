@@ -161,7 +161,7 @@ SHOW_LEGEND()
 Diagram types 
 
 * System Context & System Landscape diagrams
-  * Import: `!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml`
+  * Import: `!include https://raw.githubusercontent.com/uniknow/c4Modeling/master/includes/C4_Context.puml`
   * Macros: 
     * `Person(alias, label, ?description, ?sprite, ?tags, $link)`
     * `Person_Ext`
@@ -175,7 +175,7 @@ Diagram types
     * `Enterprise_Boundary(alias, label, ?tags, $link)`
     * `System_Boundary` 
 * Container diagram
-  * Import: `!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml`
+  * Import: `!include https://raw.githubusercontent.com/uniknow/c4Modeling/master/includes/C4_Container.puml`
   * Additional Macros: 
     * `Container(alias, label, technology, ?description, ?sprite, ?tags, $link)`
     * `ContainerDb`
@@ -185,7 +185,7 @@ Diagram types
     * `ContainerQueue_Ext`
     * `Container_Boundary(alias, label, ?tags, $link)`
 * Component diagram
-  * Import: `!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml`
+  * Import: `!include https://raw.githubusercontent.com/uniknow/c4Modeling/master/includes/C4_Component.puml`
   * Additional Macros: 
     * `Component(alias, label, technology, ?description, ?sprite, ?tags, $link)`
     * `ComponentDb`
@@ -194,7 +194,7 @@ Diagram types
     * `ComponentDb_Ext`
     * `ComponentQueue_Ext`
 * Dynamic diagram
-  * Import: `!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Dynamic.puml`
+  * Import: `!include https://raw.githubusercontent.com/uniknow/c4Modeling/master/includes/C4_Dynamic.puml`
   * Additional Macros: 
     * `RelIndex(index, from, to, label, ?tags, $link)`
     * (lowercase) `increment($offset=1)`: increase current index (procedure which has no direct output)
@@ -206,7 +206,7 @@ Diagram types
     * `SetIndex($new_index)`: returns new set index and calculates next index (function which can be used as argument)
 
 * Deployment diagram
-  * Import: `!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml`
+  * Import: `!include https://raw.githubusercontent.com/uniknow/c4Modeling/master/includes/C4_Deployment.puml`
   * Additional Macros: 
     * `Deployment_Node(alias, label, ?type, ?description, ?sprite, ?tags, $link)`
     * `Node(alias, label, ?type, ?description, ?sprite, ?tags, $link)`: short name of Deployment_Node()
