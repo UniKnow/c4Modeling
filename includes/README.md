@@ -213,7 +213,7 @@ Diagram types
     * `Node_L(alias, label, ?type, ?description, ?sprite, ?tags, $link)`: left aligned Node()
     * `Node_R(alias, label, ?type, ?description, ?sprite, ?tags, $link)`: right aligned Node()
 
-Take a look at each of the [C4 Model Diagram Samples](samples/C4CoreDiagrams.md).
+Take a look at each of the [C4 Model Diagram Samples](../samples/C4CoreDiagrams.md).
 
 ## Relationship Types
 
@@ -478,31 +478,31 @@ Rel(personAlias, containerAlias, "Label", "Optional Technology")
 
 ## Snippets for Visual Studio Code
 
-Because the PlantUML support inside of Visual Studio Code is excellent with the [PlantUML extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml), you can also find VS Code snippets for C4-PlantUML at [.vscode/C4.code-snippets](.vscode/C4.code-snippets).
+Because the PlantUML support inside of Visual Studio Code is excellent with the [PlantUML extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml), you can also find VS Code snippets for C4-PlantUML at [.vscode/C4.code-snippets](../.vscode/C4.code-snippets).
 
 Project level snippets are now supported in [VSCode 1.28](https://code.visualstudio.com/updates/v1_28#_project-level-snippets).
 Just include the `C4.code-snippets` file in the `.vscode` folder of your project.
 
 It is possible to save them directly inside VS Code: [Creating your own snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_creating-your-own-snippets).
 
-![C4-PlantUML Snippets Video](images/vscode_c4plantuml_snippets.gif)
+![C4-PlantUML Snippets Video](../images/vscode_c4plantuml_snippets.gif)
 
 ## Advanced Samples
 
 The following advanced samples are reproductions with C4-PlantUML from official [C4 model samples](https://c4model.com/#examples) created by [Simon Brown](https://simonbrown.je/).
 
-The core diagram samples from [c4model.com](https://c4model.com/#coreDiagrams) are available [here](samples/C4CoreDiagrams.md).
+The core diagram samples from [c4model.com](https://c4model.com/#coreDiagrams) are available [here](../samples/C4CoreDiagrams.md).
 
 ### techtribes.js
 
-Source: [C4_Container Diagram Sample - techtribesjs.puml](samples/C4_Container%20Diagram%20Sample%20-%20techtribesjs.puml)
+Source: [C4_Container Diagram Sample - techtribesjs.puml](../samples/C4_Container%20Diagram%20Sample%20-%20techtribesjs.puml)
 
 ![techtribesjs](https://www.plantuml.com/plantuml/png/ZLHDR-Cs4BthLqnzMGVGshj9jm5wMYTEazqw7uta1Zq9b3YMcLAaIb9nZAB_lKDAaQsuWEk39G_V3D-RUUElrZ7Zcah2o66nTaRaQ9_jAFf1g48s767jN6r_dauDsqnAuTPDtbWqXLOEbPiKkfhMaYbVugDrN8fyUldZnmSVMjukfXMp3Ws5ialAO4AXcTI4ZJv0eoYveYBWrWWhBQNU25M2910mnM5mB8obDmrqEKXTC2ctLADdUNX1j9ZzSRzCi_J-8PlVFzsDJw8FNMYMPCclL-db3SMwqDEtz2PRN5rVtSqf64KFQAnMsTMh6pEbrRRIZSsyy1X6ixS0B2amEkd0OrQM1alcaFV8Fl8UoYkXX7M6EQ5L3nz4trAYP6iTLjc5RXHdPZikFiVxqvhGk4x-Ze0-uQllmtY3USRgcj1FcCEihgKeGkaHXRwp5nP3KXlVyzlVBsD8TKN7S3vvzUSpFmyBdfhrZNyHk84QTIqnXlRc63eRn80lzA30iyxf6rqnWPNH5Ssk6nTumZ5mGHvYCiptMmeM2wUzo27pUJusA3EU4uz7b84p9SsPOpcpwEdTRfFV5l1bygLbcr0Pj0VymXCgh79IiHOrHPZyqxxdcpDUUlYrS3TD3WPhtQaue3PU2OasJ8Ik_OL-G3kVaVyvIyzEz-XOPAPOWr0SNz7-bqobxL-I4kuqoGa28UG6YLgLUdu1fvFJWSZGsCSacSuSlQmGkOLnBdK9HDlPaz1Sjq5qzf1-KtFcWjkMxTkR5-3SewoMw9qowW4MQgE3wBWhEknJkAtp0MW536onHjv8v4334fx3Fxs9_KAvZN0jXRHz8yJUSVidGwVjBSD3BzFIsGKzWxg8_76meZlZqmvPh-KcJHyImXDwkAV7uSDTFPeISlhZFHiptetEDsnZX6-jqpwLHZ_zFh-W5QorSN1szkadAZIeitFTeDPxMB3J4B5df8qmwAVfTA5bTzdf-QVFvntjRDdRunXnGh4Zx0Vb1loVUl47k23WIBl-hvnTrPtZhj7rXWQXLjfKOQoxdUdRrazqK6hdJe8EA-IwSL0tkHG559fZkn_2QIFmIDNErg5elqoD5QhqYnx8zSi-BEMrBjWsU-p_CNUjfgElg7XJoNy1 "techtribesjs")
 
 
 ### Message Bus and Microservices
 
-Source: [C4_Container Diagram Sample - message bus.puml](samples/C4_Container%20Diagram%20Sample%20-%20message%20bus.puml)
+Source: [C4_Container Diagram Sample - message bus.puml](../samples/C4_Container%20Diagram%20Sample%20-%20message%20bus.puml)
 
 ![messagebus](https://www.plantuml.com/plantuml/png/bLHVRzis47_NfxXb3qs196wBFUsfZcqixPpOjHm4Un9EqjacIf44IJbpXttt7IMReHSLQFCGYJyTVt-EF7zq7grl6maN3Jc7MofRTv7z8bGbsvfWvxrnluz65fzljiBlMlvCjjBAa_8tbMv6Hg8A1DVErrAKeyblryi0FTxFHmqwJvQXOi8xK2YoDuPhipVGAjxSC0du7S56IwcVXTg2v290LSFPPs4TlsbWSP2wGYaFp15TlXR8t5UX35fiuDcYUHArty67T-yIlC6_x_l8kVX6tSTiFlvhyRWkrejbCLqyFLo-pTuSeN5Uv7_ErfCxnexGqwVrNJ6V_J5xc3AOPKkoJglBgdLUDsIlO1BVBiPmWY-uD3yuJqrngrjLeprSLk-vv5GDdzH6smQzqEhYBVoJPS1_CTyb6fDMZusHekgh6V-CUtIL5SPVmLXjMuasmEFGNnTDkD3C1XM73mqM5epL6o69tPtBnJY58xiN5QNQUG-TTAyWDpOSugtMFe3h7O7HGddG6y2g8kU0iqKR89AehvIF5xBWAyTSnxE2szO5wXMMfV3tNpePYyePRNr7pkL21INQa_BkDQ-bKCi-aqYh4vPcMhNb8Jmdbj2J0nMyIk6eXXezTcgH34nhZNOq88XjBNmYDWxhL6Zow-ZcOROEhqkhzw9cCMstg8JhUdFzp11qD45fWvMG_3gWDIrV3gmkqxEQeiSINQUti5X9WlSVgh3AlRRaVknGc3yc3W9fvrA5-qF-PPwGuwbvtwY6FLd7vDsba38Us4jJiOQThdwcjwoIT3QiWlXiJoekevSa7s2fMt-yAU1tw667U-9_nf2YclN-pR8LoMIg-_bx36xuURTUBtCk2qN5gX_EWP5vD1pkEqs6a7yRoD0TL7K5d_F5m-YCU3umXhsFd5JjOW0TM9wep7NrbJplxbsztfpCLYI9tjhEx0jfppF0aborsDx-54N_OpIzdHmZd4_pm0Z-e8cKff-8dw7ehGoeHsWmIY_zFxNqviKTlLQ_9vlZeLWDgPqnSU57zjqsyZy0 "messagebus")
 
