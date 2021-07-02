@@ -1,0 +1,7 @@
+!$COLOR_BACKGROUND = "#7f3b08"
+!$COLOR_FONT = "#f7f7f7"
+!$COLOR_BORDER = "#fee0b6"
+
+UpdateElementStyle("person", $bgColor=$COLOR_BACKGROUND, $fontColor=$COLOR_FONT, $borderColor=$COLOR_BORDER, $shadowing="false")
+
+LAYOUT_WITH_LEGEND()

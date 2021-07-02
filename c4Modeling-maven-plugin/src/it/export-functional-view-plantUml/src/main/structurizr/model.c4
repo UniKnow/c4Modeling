@@ -1,0 +1,65 @@
+workspace "Example Use-Cases view" "This is an example workspace to illustrate the use-cases feature." {
+
+    model {
+
+        actor = Person "Actor" "Actor interacting with system"
+
+        // System viewpoint software system
+        SystemView = softwareSystem "Software System" "Description"  {
+
+            service = container Service "Description Application Service" "Technology" {
+
+                // Example of component within the system. Example of a component is a controller providing a customer facing
+                // API to the customer. The naming convention is PartnerConnections_<component name>
+                component = component "Component Name" "Description component" "API"
+            }
+
+            actor -> component
+        }
+
+        // Functional viewpoint Software System
+        FunctionalView = softwareSystem "Functional View Software System" "Functional View" FUNCTIONAL {
+
+            UseCases_Service = container Service "Use Cases Service" "Use Cases" FUNCTIONAL {
+                useCase = component "Use Case" "Description" "UC-001" USE-CASE
+            }
+
+            actor -> useCase
+
+        }
+    }
+
+    views {
+        systemLandscape all all {
+         	include *
+         	autolayout
+        }
+
+        filtered all exclude FUNCTIONAL Landscape "System Landscape"
+        filtered all include FUNCTIONAL Functional "Business Use Cases"
+
+        container SystemView SystemView "System View Software System" {
+            include *
+            autolayout
+        }
+
+        container FunctionalView FunctionalView "Functional View Software System" {
+            include *
+            autolayout
+        }
+
+        component UseCases_Service UseCases_Service "Use Cases Software System" {
+            include *
+            autolayout
+        }
+
+        styles {
+            element USE-CASE {
+                shape Ellipse
+                metadata false
+                background #007bff
+            }
+        }
+    }
+
+}
