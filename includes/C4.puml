@@ -152,6 +152,7 @@ skinparam rectangle<<boundary>> {
 
 !unquoted procedure $defineSkinparams($tagStereo, $bgColor, $fontColor, $borderColor, $shadowing)
   !$tagSkin = $elementTagSkinparams("rectangle", $tagStereo, $bgColor, $fontColor, $borderColor, $shadowing)
+  !$tagSkin = $elementTagSkinparams("usecase", $tagStereo, $bgColor, $fontColor, $borderColor, $shadowing)
   !$tagSkin = $tagSkin + $elementTagSkinparams("database", $tagStereo, $bgColor, $fontColor, $borderColor, $shadowing)
   !$tagSkin = $tagSkin + $elementTagSkinparams("queue", $tagStereo, $bgColor, $fontColor, $borderColor, $shadowing)
   !if ($tagStereo == "boundary" && $bgColor!="")
