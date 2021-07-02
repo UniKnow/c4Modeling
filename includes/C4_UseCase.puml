@@ -47,7 +47,7 @@ endlegend
 ' Elements
 ' ##################################
 
-!function $getComponent($label, $techn, $descr, $sprite)
+!function $getUseCase($label, $techn, $descr, $sprite)
 !if ($descr == "") && ($sprite == "")
 !return '=='+$label+'\n//<size:'+$TECHN_FONT_SIZE+'>['+$techn+']</size>//'
 !endif
@@ -62,6 +62,6 @@ endlegend
 !endif
 !endfunction
 
-!unquoted procedure UseCase($alias, $label, $techn, $descr="", $sprite="", $tags="", $link="")
-usecase "$getComponent($label, $techn, $descr, $sprite)$getProps()" $toStereos("usecase",$tags) as $alias $getLink($link)
+!unquoted procedure UseCase($alias, $label, $techn="", $descr="", $sprite="", $tags="", $link="")
+usecase "$getUseCase($label, $techn, $descr, $sprite)$getProps()" $toStereos("usecase",$tags) as $alias $getLink($link)
 !endprocedure
