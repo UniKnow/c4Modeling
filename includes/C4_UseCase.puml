@@ -63,5 +63,5 @@ endlegend
 !endfunction
 
 !unquoted procedure UseCase($alias, $label, $techn, $descr="", $sprite="", $tags="", $link="")
-rectangle "$getComponent($label, $techn, $descr, $sprite)$getProps()" $toStereos("component",$tags) as $alias $getLink($link)
+ellipse "$getComponent($label, $techn, $descr, $sprite)$getProps()" $toStereos("component",$tags) as $alias $getLink($link)
 !endprocedure
