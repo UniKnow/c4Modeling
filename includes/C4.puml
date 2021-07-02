@@ -41,6 +41,11 @@ skinparam rectangle {
     shadowing false
 }
 
+skinparam usecase {
+    StereotypeFontSize 12
+    shadowing false
+}
+
 skinparam database {
     StereotypeFontSize 12
     shadowing false
