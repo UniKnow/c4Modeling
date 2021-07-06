@@ -7,9 +7,10 @@
 
     <groupId>org.uniknow</groupId>
     <artifactId>c4Modeling</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
     <name>C4 Modeling</name>
     <description>Tools, templates and examples C4 Modeling</description>
+    <url>http://github.com/UniKnow/c4Modeling</url>
     <packaging>pom</packaging>
 
     <licenses>
@@ -40,7 +41,7 @@
 
     <scm>
         <url>http://github.com/UniKnow/c4Modeling</url>
-<!--        <connection>https://github.com/UniKnow/c4Modeling.git</connection>-->
+        <connection>https://github.com/UniKnow/c4Modeling.git</connection>
         <developerConnection>https://github.com/UniKnow/c4Modeling.git</developerConnection>
     </scm>
 

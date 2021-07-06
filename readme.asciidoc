@@ -1,1 +1,3 @@
 POC to see whether we can use the C4 model to generate system and functional view for architecture document. Ultimate goal is to realize a set of tooling and templates that can be used by regular developers to describe within their IDE the architecture of the system they are working on.
+
+To release C4 Model artifacts execute the following command: mvn -P release-signed-artifacts deploy
