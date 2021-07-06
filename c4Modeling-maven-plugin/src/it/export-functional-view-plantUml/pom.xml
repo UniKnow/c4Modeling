@@ -6,14 +6,14 @@
 
     <groupId>org.uniknow.maven.plugins</groupId>
     <artifactId>structurizr-export-test</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0-SNAPSHOT</version>
 
     <build>
         <plugins>
             <plugin>
                 <groupId>org.uniknow.c4Modeling</groupId>
                 <artifactId>c4Modeling-maven-plugin</artifactId>
-                <version>0.1.0</version>
+                <version>0.2.0-SNAPSHOT</version>
                 <configuration>
                     <model>src/main/structurizr/model.c4</model>
                     <output>${build.directory}</output>
